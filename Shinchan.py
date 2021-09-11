@@ -553,3 +553,14 @@ def myRobot():
     begin_fill()
     circle(5)
     end_fill()
+
+
+
+# Form of the legs function
+def allLegs():
+    leftLeg()
+    leftSock()
+    leftShoe()
+    rightLeg()
+    rightSock()
+    rightShoe()
