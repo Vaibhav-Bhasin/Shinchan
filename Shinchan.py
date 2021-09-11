@@ -439,3 +439,11 @@ def myEyebrow(x,y):
     for i in range(1):
         right(45)
         dot(15)
+
+
+# Eye lid function
+def myEyelid(x,y):
+    myPosition(x,y)
+    pensize(2)
+    left(170)
+    circle(-23,180)
