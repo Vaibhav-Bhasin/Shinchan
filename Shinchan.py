@@ -48,3 +48,19 @@ def leftLeg():
     right(85)
     forward(50)
     end_fill()
+
+
+# Left sock function
+def leftSock():
+    myPosition(-36,-78)
+    fillcolor("#ffffff")
+    begin_fill()
+    right(90)
+    circle(80,13)
+    right(110)
+    forward(22)
+    right(85)
+    forward(19)
+    right(90)
+    forward(21)
+    end_fill()
