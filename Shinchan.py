@@ -447,3 +447,24 @@ def myEyelid(x,y):
     pensize(2)
     left(170)
     circle(-23,180)
+
+
+# full eyes function 1
+def myfullEyes1(x,y):
+    myPosition(x,y)
+    right(90)
+    fillcolor('#000000')
+    begin_fill()
+    circle(18)
+    end_fill()
+    left(90)
+    penup()
+    forward(19)
+    right(90)
+    forward(7)
+    pendown()
+    fillcolor('#ffffff')
+    begin_fill()
+    left(90)
+    circle(9)
+    end_fill()
