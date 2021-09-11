@@ -388,3 +388,22 @@ def mydis():
         forward(10)
         right(144)
     end_fill()
+
+
+# Part of left hand function
+def leftHand2():
+    myPosition(-112,284)
+    pencolor('black')
+    fillcolor('#fcc6a0')
+    begin_fill()
+    right(180)
+    forward(31)
+    left(90)
+    for i in range(2): 
+        circle(4,90) 
+        #circle(4//2,45)
+    for i in range(3):
+        right(180)
+        for i in range(2): 
+            circle(4,90)
+    end_fill()
