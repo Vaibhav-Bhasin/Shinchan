@@ -564,3 +564,10 @@ def allLegs():
     rightLeg()
     rightSock()
     rightShoe()
+
+# Form of the hands function
+def allHands():
+    rightHand()
+    leftHand()
+    myBis()
+    leftHand2()
