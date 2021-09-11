@@ -33,3 +33,18 @@ def v():
     left(85)
     forward(18)
     end_fill()
+
+# Left leg funtion
+def leftLeg():
+    myPosition(-39,-25)
+    fillcolor("#ffd699")
+    begin_fill()
+    right(89)
+    forward(25)
+    right(90)
+    forward(50)
+    right(90)
+    forward(20)
+    right(85)
+    forward(50)
+    end_fill()
