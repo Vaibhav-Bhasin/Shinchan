@@ -571,3 +571,11 @@ def allHands():
     leftHand()
     myBis()
     leftHand2()
+# Form of the eyes brows function
+def allEyebrows():
+    myEyebrow(-8,300)
+    right(90)
+    myEyebrow(72,300)
+    myEyelid(-9,270)
+    left(15)
+    myEyelid(68,265)   
