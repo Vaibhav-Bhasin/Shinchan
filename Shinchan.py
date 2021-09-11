@@ -468,3 +468,24 @@ def myfullEyes1(x,y):
     left(90)
     circle(9)
     end_fill()
+
+
+# full eyes function 2
+def myfullEyes2(x,y):
+    myPosition(x,y)
+    right(90)
+    fillcolor('#000000')
+    begin_fill()
+    circle(18)
+    end_fill()
+    left(90)
+    penup()
+    forward(19)
+    right(90)
+    forward(8)
+    pendown()
+    fillcolor('#ffffff')
+    begin_fill()
+    left(90)
+    circle(9)
+    end_fill()
