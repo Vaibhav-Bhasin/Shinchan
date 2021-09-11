@@ -421,3 +421,21 @@ def myMouth():
         circle(25,90) 
         circle(25//2,90)
     end_fill()
+
+
+
+# Eyes brow function
+def myEyebrow(x,y):
+    myPosition(x,y)
+    pensize(18)
+    right(150)
+    forward(25)
+    right(90)
+    for i in range(1):
+        right(45)
+        dot(15)
+    left(55)
+    forward(25)
+    for i in range(1):
+        right(45)
+        dot(15)
