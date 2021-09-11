@@ -11,3 +11,25 @@ def myPosition(x, y):
     goto(x, y)
     pendown()
 
+
+# V function
+def v():
+    fillcolor('#ffec40')
+    begin_fill()
+    right(25)
+    forward(20)
+    right(45)
+    forward(20)
+    left(70)
+    forward(90)
+    left(95)
+    forward(75)
+    left(85)
+    forward(175)
+    left(85)
+    forward(75)
+    left(95)
+    forward(90)
+    left(85)
+    forward(18)
+    end_fill()
